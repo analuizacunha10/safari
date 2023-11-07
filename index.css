@@ -1,0 +1,15 @@
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#img_carousel {
+    height: 350px; 
+    width: 350px;  
+}
+.med {
+    height: 40%;
+    width: 40%;
+}
+body {
+    background-color:  rgb(237, 205, 243);
+}

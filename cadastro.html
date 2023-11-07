@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+   <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./cadastro.js">
+   <link rel="stylesheet" href="./cadastro.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Virtual Library</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="favoritos.html">Favoritos</a>
+          <a class="nav-link active" aria-current="page" href="cadastro.html">Cadastro</a>
+          <a class="nav-link active" aria-current="page" href="./recomendacao.html">Recomendação de Livros</a>
+          <a class="nav-link active" aria-current="page" href="./autores.html">Autores Famosos</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-12"></div>
+      <div class="col-12">
+        <h1 class="text-center">Cadastro</h1>
+            <legend class="text-center">Dados Pessoais</legend>      
+                  <form style="width: 60%; margin-left: 20%;" class="cor">
+                    <div class="mb-3">
+                      <label for="exampleInputName1" class="form-label">Nome:</label>
+                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Digite seu nome completo" required />
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                      <label for="exampleInputTel" class="form-label">Telefone:</label>
+                      <input type="tel" class="form-control" id="exampleInputTel" placeholder="Digite seu Telefone" />
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                      <label for="exampleInputAge" class="form-label">Idade:</label>
+                      <input type="number" class="form-control" id="exampleInputAge" placeholder="Coloque sua Idade" required />
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">E-mail:</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail" required />
+                      <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Senha:</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passwordHelpBlock" placeholder="Digite sua senha" required />
+                      <div id="passwordHelpBlock" class="form-text">Sua senha deve ter de 8 a 20 caracteres, conter letras e números e não deve conter espaços, caracteres especiais ou emoji.</div>
+                    </div>
+                    <br>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">Cidade:</label>
+                      <input type="text" class="form-control" id="inputCity" placeholder="Digite sua cidade" required />
+                    </div>
+                    <br>
+                    <div>
+                    <label for="exampleDataList" class="form-label">Estados:</label>
+                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Escolha seu estado" required />
+                    <datalist id="datalistOptions">
+                    <option value="Acre">
+                    <option value="Alagoas">
+                    <option value="Amapá">
+                    <option value="Amazonas">
+                    <option value="Bahia">
+                    <option value="Ceará">
+                    <option value="Espírito Santo">
+                    <option value="Goiás">
+                    <option value="Maranhão">
+                    <option value="Mato Grosso">
+                    <option value="Mato Grosso do Sul">
+                    <option value="Minas Gerais">
+                    <option value="Pará">
+                    <option value="Paraíba">
+                    <option value="Paraná">
+                    <option value="Pernambuco">
+                    <option value="Piauí">
+                    <option value="Rio de Janeiro"> 
+                    <option value="Rio Grande do Norte"> 
+                    <option value="Rio Grande do Sul"> 
+                    <option value="Rondônia"> 
+                    <option value="Roraima"> 
+                    <option value="Santa Catarina">
+                    <option value="São Paulo">
+                    <option value="Sergipe">
+                    <option value="Tocantins">
+                    </datalist>
+                    </div>
+                    <br>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                      <label class="form-check-label" for="invalidCheck">
+                        Concordo com os termos e condições.
+                      </label>
+                    </div>
+                    <br>
+                    <div>
+                      <button type="submit" class="btn btn-primary">Enviar Formulário</button>
+                      <button type="reset" class="btn btn-primary">Limpar Formulário</button>
+                    </div>
+                  </form> 
+                </div>    </div>
+      <br>
+      <div class="col-12"></div>
+    </div>
+  </div>
+</body>
+</html>

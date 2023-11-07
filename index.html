@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Virtual Library</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="favoritos.html">Favoritos</a>
+          <a class="nav-link active" aria-current="page" href="cadastro.html">Cadastro</a>
+          <a class="nav-link active" aria-current="page" href="./recomendacao.html">Recomendação de Livros</a>
+          <a class="nav-link active" aria-current="page" href="./autores.html">Autores Famosos</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-12"></div>
+    <div class="col-12"><div style="background-color:  rgb(237, 205, 243);">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 70%; margin: 0 auto;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/As melhores recomendações-WEB_page-0001.jpg" class="d-block w-100" alt="..." id="img_carousel">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Os Clássicos-WEB_page-0001.jpg" class="d-block w-100" alt="..." id="img_carousel">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Ler é crescer em silêncio_page-0001.jpg" class="d-block w-100" alt="..." id="img_carousel">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/A leitura é a chave_page-0001.jpg" class="d-block w-100" alt="..." id="img_carousel">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div></div>
+    <br>
+    <div class="col-12"></div>
+  </div>
+</div>
+  <br>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4"> <h1 class="text-center">Livros Mais Vendidos</h1></div>
+      <br>
+      <div class="col-4"></div>
+    </div>
+  </div>
+  <br>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-12"></div>
+      <div class="col-12"> <table class="table" style="width: 70%; margin: 0 auto;">
+        <thead>
+          <tr>
+            <th scope="col">Ranking</th>
+            <th scope="col">Nome do Livro</th>
+            <th scope="col">Autor(a)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Corte de Espinhos Rosas</td>
+            <td>Sarah J. Mass</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Os Dois Morrem no Final</td>
+            <td>Adam Silvera</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Heartstopper</td>
+            <td>Alice Oseman</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Jake Livingstone Vê Gente Morta</td>
+            <td>Ryan Douglass</td>
+          </tr><tr>
+            <th scope="row">5</th>
+            <td>Leitura de Verão</td>
+            <td>Emily Henry</td>
+          </tr><tr>
+            <th scope="row">6</th>
+            <td>Mentirosos</td>
+            <td>E. Lockhart</td>
+          </tr><tr>
+            <th scope="row">7</th>
+            <td>Os Sete Maridos de Evelyn Hugo</td>
+            <td>Taylor Jenkins Reid</td>
+          </tr><tr>
+            <th scope="row">8</th>
+            <td>A Sociedade de Atlas</td>
+            <td>Olivie Blake</td>
+          </tr><tr>
+            <th scope="row">9</th>
+            <td>Teto Pra Dois</td>
+            <td>Beth O'Leary</td>
+          </tr><tr>
+            <th scope="row">10</th>
+            <td>Vermelho, Branco e Sangue Azul</td>
+            <td>Casey McQuiston</td>
+          </tr><tr>
+            <th scope="row">11</th>
+            <td>Você e Eu de Férias</td>
+            <td>Emily Henry</td>
+          </tr><tr>
+            <th scope="row">12</th>
+            <td>Estilhaça-me</td>
+            <td>Tahereh Mafi</td>
+          </tr><tr>
+            <th scope="row">13</th>
+            <td>O príncipe cruel</td>
+            <td>Holly Black</td>
+          </tr><tr>
+            <th scope="row">14</th>
+            <td>A rainha vermelha</td>
+            <td>Victoria Aveyard</td>
+          </tr><tr>
+            <th scope="row">15</th>
+            <td>Um de nós está mentindo</td>
+            <td>Karen M. McManus</td>
+          </tr><tr>
+            <th scope="row">16</th>
+            <td>Clube do livro dos homens</td>
+            <td>Lyssa Kay Adams</td>
+          </tr><tr>
+            <th scope="row">17</th>
+            <td>É Assim que Acaba</td>
+            <td>Colleen Hoover</td>
+          </tr><tr>
+            <th scope="row">18</th>
+            <td>Daisy Jones & The Six</td>
+            <td>Taylor Jenkins Reid</td>
+          </tr><tr>
+            <th scope="row">19</th>
+            <td>Trono de vidro</td>
+            <td>Sarah J. Maas</td>
+          </tr><tr>
+            <th scope="row">20</th>
+            <td>Uma Segunda Chance</td>
+            <td>Colleen Hoover</td>
+          </tr>
+        </tbody>
+      </table></div>
+      <br>
+      <div class="col-12"></div>
+    </div>
+  </div>
+  <br>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4"><h1 class="text-center">Literaturas Clássicas Famosas</h1></div>
+      <br>
+      <div class="col-4"></div>
+    </div>
+  </div>
+  <br>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-12"></div>
+      <div class="col-12"><table class="table" style="width: 70%; margin: 0 auto;">
+        <thead>
+          <tr>
+            <th scope="col">Ranking</th>
+            <th scope="col">Nome da Literatura</th>
+            <th scope="col">Autor(a)</th>
+            <th scope="col">Ano</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Odisseia</td>
+            <td>Homero</td>
+            <td>Século 8 a.C</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>A divina comédia</td>
+            <td>Dante Alighieri</td>
+            <td>1321</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Decamerão</td>
+            <td>Giovanni Boccacio</td>
+            <td>1353</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Romeu e Julieta</td>
+            <td>Shakespeare</td>
+            <td>1595</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Os Lusíadas</td>
+            <td>Camões</td>
+            <td>1572</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Dom quixote de Ia Mancha</td>
+            <td>Cervantes</td>
+            <td>1605</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Orgulho e Preconceito</td>
+            <td>Jane Austen</td>
+            <td>1813</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Moby Dick</td>
+            <td>Herman Melville</td>
+            <td>1851</td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td>Crime e Castigo</td>
+            <td>Dostoiévski</td>
+            <td>1866</td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td>Dom Casmurro</td>
+            <td>Machado de Assis</td>
+            <td>1899</td>
+          </tr>
+          <tr>
+            <th scope="row">11</th>
+            <td>A Metamorfose</td>
+            <td>Kafka</td>
+            <td>1912</td>
+          </tr>
+          <tr>
+            <th scope="row">12</th>
+            <td>Em busca do tempo perdido</td>
+            <td>Proust</td>
+            <td>1913</td>
+          </tr>
+          <tr>
+            <th scope="row">13</th>
+            <td>O Estrangeiro</td>
+            <td>Camus</td>
+            <td>1942</td>
+          </tr>
+          <tr>
+            <th scope="row">14</th>
+            <td>O Pequeno Príncipe</td>
+            <td>Antoine de Saint-Exupéry</td>
+            <td>1943</td>
+          </tr>
+          <tr>
+            <th scope="row">15</th>
+            <td>Lolita</td>
+            <td>Nabokov</td>
+            <td>1955</td>
+          </tr>
+          <tr>
+            <th scope="row">16</th>
+            <td>Ensaio sobre a Cegueira</td>
+            <td>Saramago</td>
+            <td>1955</td>
+          </tr>
+          <tr>
+            <th scope="row">17</th>
+            <td>O Jogo da Amarelinha</td>
+            <td>Cortázar</td>
+            <td>1963</td>
+          </tr>
+          <tr>
+            <th scope="row">18</th>
+            <td>Cem anos de Solidão</td>
+            <td>García Márquez</td>
+            <td>1967</td>
+          </tr>
+          <tr>
+            <th scope="row">19</th>
+            <td>A hora da Estrela</td>
+            <td>Clarice Lispector</td>
+            <td>1977</td>
+          </tr>
+          <tr>
+            <th scope="row">20</th>
+            <td>Busto de Homero</td>
+            <td>Aristóteles</td>
+            <td>1653</td>
+          </tr>
+        </div></div>
+      <br>
+      <div class="col-12"></div>
+    </div>
+  </div>
+  </body>
+</html>
